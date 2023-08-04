@@ -1,6 +1,10 @@
 # ddev-contrib: Contrib for DDEV
 
-Contrib space for DDEV services, tools, snippets, and approaches.
+Contrib space for DDEV add-ons, services, tools, snippets, and approaches.
+
+## Third-party add-ons
+
+* [SSH Server](https://github.com/hanoii/ddev-sshd)
 
 ## config.yaml hook examples
 
@@ -76,10 +80,6 @@ General information on how to do additional services and some additional example
 * [Laravel Horizon](recipes/laravel-horizon)
 * [REDAXO CMS](recipes/redaxo-cms)
 * [SSH Server](recipes/sshd): Adding a "real" sshd server in web container
-  * Also see a more recent [third-party add-on](#third-party-add-ons) below
+  * Also see a more recent [third-party add-on](#third-party-add-ons) above
 * [Puppeteer Headless Chrome support](recipes/puppeteer-headless-chrome-support/README.md)
 * [PHPCS Git hook without PHP on the host machine](recipes/git-hooks/pre-commit-phpcs)
-
-## Third-party add-ons
-
-* [SSH Server](https://github.com/hanoii/ddev-sshd)
